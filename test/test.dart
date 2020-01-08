@@ -1,13 +1,13 @@
+@TestOn('browser')
+
 import 'dart:html';
 import 'dart:isolate';
 
-import 'package:unittest/unittest.dart';
-import 'package:unittest/html_enhanced_config.dart';
-
-import 'package:animation/animation.dart';
+import 'package:test/test.dart';
+import 'package:animation2/animation.dart';
 
 main() {
-  useHtmlEnhancedConfiguration();
+  // useHtmlEnhancedConfiguration();
 
   group('Easing', () {
     // Linear

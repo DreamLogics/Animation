@@ -1,11 +1,15 @@
-name: animation
-version: 0.5.24
-author: Kai Sellgren <kaisellgren@gmail.com>
-description: Animate HTML elements similar to jQuery's animate().
+name: animation2
+version: 0.6.01
+authors:
+  - Kai Sellgren <kaisellgren@gmail.com>
+  - Stefan Ladage <stefan@dreamlogics.com>
+description: Animate HTML elements similar to jQuery's animate(). (Ported to Dart 2)
 homepage: http://github.com/kaisellgren/Animation
 environment:
-  sdk: '>=0.8.10+6 <2.0.0'
-dependencies:
-  browser: '>=0.9.0 <0.11.0'
+  sdk: '>=2.0.0 <3.0.0'
 dev_dependencies:
-  unittest: '>=0.9.0 <0.10.0'
+  build_runner: ^1.7.3
+  build_test: ^0.10.11
+  build_web_compilers: ^2.7.2
+  test: ^1.9.4
+

@@ -197,12 +197,13 @@ class ElementAnimation extends Animation {
     }
 
     // Perform the animation.
-    toProperties.forEach((String key, value) {
+    toProperties.forEach((String key, _value) {
       var intermediateValue;
+      var value = _value as num;
 
       // If there's still time left, calculate the exact figures.
       if (timeLeft > 0) {
-        var baseValue = fromProperties[key];      // The base/original value.
+        var baseValue = fromProperties[key] as num;      // The base/original value.
         var change    = value - baseValue;        // How much the values differ.
         var time      = currentTime - _startTime; // How much time has passed.
 
