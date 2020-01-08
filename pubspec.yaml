@@ -4,7 +4,7 @@ authors:
   - Kai Sellgren <kaisellgren@gmail.com>
   - Stefan Ladage <stefan@dreamlogics.com>
 description: Animate HTML elements similar to jQuery's animate(). (Ported to Dart 2)
-homepage: http://github.com/kaisellgren/Animation
+homepage: https://github.com/DreamLogics/Animation
 environment:
   sdk: '>=2.0.0 <3.0.0'
 dev_dependencies:
