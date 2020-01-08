@@ -6,3 +6,6 @@ pubspec.lock
 /test/*.js
 *.js.deps
 *.js.map
+/build
+.dart_tool
+.packages

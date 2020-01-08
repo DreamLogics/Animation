@@ -9,10 +9,6 @@
 library effect;
 
 import 'dart:html';
-import 'dart:math';
-import 'dart:isolate';
-import 'dart:async';
-import 'dart:collection';
 
 import 'animation.dart';
 
