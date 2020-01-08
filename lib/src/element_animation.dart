@@ -6,7 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-part of animation;
+part of animation2;
 
 /**
  * [ElementAnimation] is used to animate HTMLElement styles (such as left, width) and properties (such as scrollTop).

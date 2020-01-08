@@ -6,7 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-part of animation;
+part of animation2;
 
 class AnimationQueue {
   int _position = 0;

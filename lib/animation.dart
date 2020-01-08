@@ -6,7 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-library animation;
+library animation2;
 
 import 'dart:html';
 import 'dart:math';
